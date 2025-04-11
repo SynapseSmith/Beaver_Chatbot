@@ -1,0 +1,5 @@
+﻿2024-08-19 13:53:56,970 [__main__] [INFO] :: *** 13h-53m-56s START ***
+2024-08-19 13:53:56,970 [__main__] [INFO] :: *** PID: 258034 ***
+2024-08-19 13:54:10,179 [__main__] [INFO] ::  ** Initialize history **
+2024-08-19 13:54:13,485 [__main__] [INFO] :: Ready to receive speech input...
+2024-08-19 13:54:13,486 [__main__] [ERROR] :: An error occurred: name 'processing_speech' is not defined

@@ -1,0 +1,49 @@
+﻿2024-08-12 17:56:41,295 [__main__] [INFO] :: *** 17h-56m-41s START ***
+2024-08-12 17:56:41,295 [__main__] [INFO] :: *** PID: 2315686 ***
+2024-08-12 17:56:54,763 [__main__] [INFO] ::  ** Initialize history **
+2024-08-12 17:56:56,765 [__main__] [ERROR] :: 
+
+ !!!!! Error raised >>> 
+Decoding failed. ffmpeg returned error code: 1
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/opt/anaconda3 --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+[cache @ 0x55ebea6b8780] Inner protocol failed to seekback end : -38
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55ebea6b7d00] moov atom not found
+[cache @ 0x55ebea6b8780] Statistics, cache hits:9 cache misses:5
+cache:pipe:0: Invalid data found when processing input
+
+2024-08-12 18:00:01,074 [__main__] [ERROR] :: 
+
+ !!!!! Error raised >>> 
+Decoding failed. ffmpeg returned error code: 1
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)
+  configuration: --prefix=/opt/anaconda3 --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+[cache @ 0x5559ba204780] Inner protocol failed to seekback end : -38
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5559ba203d00] moov atom not found
+[cache @ 0x5559ba204780] Statistics, cache hits:9 cache misses:12
+cache:pipe:0: Invalid data found when processing input
+

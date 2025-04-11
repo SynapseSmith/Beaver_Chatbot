@@ -1,0 +1,5 @@
+﻿2024-08-14 15:51:50,451 [__main__] [INFO] :: *** 15h-51m-50s START ***
+2024-08-14 15:51:50,452 [__main__] [INFO] :: *** PID: 2819038 ***
+2024-08-14 15:52:09,547 [__main__] [INFO] ::  ** Initialize history **
+2024-08-14 15:52:11,241 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '메뉴 추천해줘'}}
+2024-08-14 15:52:11,241 [__main__] [INFO] ::  --- Start order ----

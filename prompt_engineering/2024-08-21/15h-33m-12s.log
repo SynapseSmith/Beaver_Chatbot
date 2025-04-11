@@ -1,0 +1,25 @@
+﻿2024-08-21 15:33:12,243 [__main__] [INFO] :: *** 15h-33m-12s START ***
+2024-08-21 15:33:12,243 [__main__] [INFO] :: *** PID: 177925 ***
+2024-08-21 15:35:59,180 [__main__] [INFO] ::  ** Initialize history **
+2024-08-21 15:36:04,054 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '운영시간이 어떻게 돼?'}}
+2024-08-21 15:36:04,055 [__main__] [INFO] ::  --- Start order ----
+2024-08-21 15:36:07,680 [__main__] [INFO] :: *** Yield Time taken: 2.9617204666137695s ***
+2024-08-21 15:36:07,681 [__main__] [INFO] ::  >> Yield streaming text: 저희  <<
+2024-08-21 15:36:07,749 [__main__] [INFO] ::  >> Yield streaming text: 매장은  <<
+2024-08-21 15:36:07,817 [__main__] [INFO] ::  >> Yield streaming text: 오전  <<
+2024-08-21 15:36:07,954 [__main__] [INFO] ::  >> Yield streaming text: 10시부터  <<
+2024-08-21 15:36:07,988 [__main__] [INFO] ::  >> Yield streaming text: 밤  <<
+2024-08-21 15:36:08,124 [__main__] [INFO] ::  >> Yield streaming text: 10시까지  <<
+2024-08-21 15:36:08,226 [__main__] [INFO] ::  >> Yield streaming text: 운영됩니다.  <<
+2024-08-21 15:36:08,295 [__main__] [INFO] ::  >> Yield streaming text: 추가로  <<
+2024-08-21 15:36:08,363 [__main__] [INFO] ::  >> Yield streaming text: 궁금한  <<
+2024-08-21 15:36:08,397 [__main__] [INFO] ::  >> Yield streaming text: 점  <<
+2024-08-21 15:36:08,534 [__main__] [INFO] ::  >> Yield streaming text: 있으신가요?
+ <<
+2024-08-21 15:36:20,148 [__main__] [INFO] :: 
+
+ >> Response: 저희 매장은 오전 10시부터 밤 10시까지 운영됩니다. 추가로 궁금한 점 있으신가요?
+
+
+  >>> Slot: {'orderList': [], 'delivmthdCd': None, 'paymntmnCd': None, 'easypaymnttypeCd': 'Null', 'orderCheck': 'False'}
+

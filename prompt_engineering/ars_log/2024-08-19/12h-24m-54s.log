@@ -1,0 +1,9 @@
+﻿2024-08-19 12:24:54,294 [__main__] [INFO] :: *** 12h-24m-54s START ***
+2024-08-19 12:24:54,294 [__main__] [INFO] :: *** PID: 244644 ***
+2024-08-19 12:25:06,339 [__main__] [INFO] ::  ** Initialize history **
+2024-08-19 12:25:16,041 [__main__] [INFO] :: audio_file
+2024-08-19 12:25:16,041 [__main__] [INFO] :: audio_data
+2024-08-19 12:25:16,043 [__main__] [ERROR] :: 
+
+ !!!!! Error raised >>> 
+process_speech() takes 0 positional arguments but 1 was given

@@ -1,0 +1,402 @@
+﻿2024-08-21 15:40:03,923 [__main__] [INFO] :: *** 15h-40m-03s START ***
+2024-08-21 15:40:03,923 [__main__] [INFO] :: *** PID: 179310 ***
+2024-08-21 15:40:17,124 [__main__] [INFO] ::  ** Initialize history **
+2024-08-21 15:40:30,246 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '프랭크 버거 세트 열 일곱개에 여덟개는 라지, 콜라, 치킨이랑 나머지는 레귤러랑 사이다 게다리살 튀김'}}
+2024-08-21 15:40:30,247 [__main__] [INFO] ::  --- Start order ----
+2024-08-21 15:40:38,272 [__main__] [INFO] :: *** Yield Time taken: 7.207085132598877s ***
+2024-08-21 15:40:38,273 [__main__] [INFO] ::  >> Yield streaming text: 주문  <<
+2024-08-21 15:40:38,506 [__main__] [INFO] ::  >> Yield streaming text: 접수되었습니다!  <<
+2024-08-21 15:40:38,585 [__main__] [INFO] ::  >> Yield streaming text: 추가로  <<
+2024-08-21 15:40:38,780 [__main__] [INFO] ::  >> Yield streaming text: 주문하시겠습니까?
+ <<
+2024-08-21 15:40:49,179 [__main__] [ERROR] :: Error in literal_eval: unmatched ']' (<unknown>, line 1)
+2024-08-21 15:42:21,569 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '프랭크 버거 레귤러 4개, 라지 5개'}}
+2024-08-21 15:42:27,744 [__main__] [INFO] :: *** Yield Time taken: 5.831338405609131s ***
+2024-08-21 15:42:27,745 [__main__] [INFO] ::  >> Yield streaming text: 주문  <<
+2024-08-21 15:42:27,927 [__main__] [INFO] ::  >> Yield streaming text: 확인되었습니다.  <<
+2024-08-21 15:42:27,963 [__main__] [INFO] ::  >> Yield streaming text: 추가  <<
+2024-08-21 15:42:28,073 [__main__] [INFO] ::  >> Yield streaming text: 주문하실  <<
+2024-08-21 15:42:28,183 [__main__] [INFO] ::  >> Yield streaming text: 메뉴가  <<
+2024-08-21 15:42:28,328 [__main__] [INFO] ::  >> Yield streaming text: 있으신가요?
+ <<
+2024-08-21 15:42:38,350 [__main__] [INFO] :: 
+
+ >> Response: 주문 확인되었습니다. 추가 주문하실 메뉴가 있으신가요?
+
+
+  >>> Slot: {'orderList': [{'prodCd': '103616662', 'prodNm': '프랭크 버거', 'prodQty': 4, 'optionprodList': [{'optionprodCd': '103616743', 'optionprodNm': 'R', 'optionprodQty': 1, 'optionprodGrpCd': '104554', 'optinoprodGrpNm': '사이즈 선택'}]}, {'prodCd': '103616662', 'prodNm': '프랭크 버거', 'prodQty': 5, 'optionprodList': [{'optionprodCd': '103616742', 'optionprodNm': 'L', 'optionprodQty': 1, 'optionprodGrpCd': '104554', 'optinoprodGrpNm': '사이즈 선택'}]}], 'delivmthdCd': None, 'paymntmnCd': None, 'easypaymnttypeCd': 'Null', 'orderCheck': 'False'}
+
+2024-08-21 15:43:55,306 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '프랭크 버거 세트 열 두 개 중에 네 개 레귤러 치킨 콜라 나머지는 라지 사이다 콘샐러드'}}
+2024-08-21 15:44:04,657 [__main__] [INFO] :: *** Yield Time taken: 9.084409713745117s ***
+2024-08-21 15:44:04,657 [__main__] [INFO] ::  >> Yield streaming text: 주문  <<
+2024-08-21 15:44:04,891 [__main__] [INFO] ::  >> Yield streaming text: 도와드렸습니다!  <<
+2024-08-21 15:44:04,969 [__main__] [INFO] ::  >> Yield streaming text: 매장  <<
+2024-08-21 15:44:05,165 [__main__] [INFO] ::  >> Yield streaming text: 포장여부와  <<
+2024-08-21 15:44:05,360 [__main__] [INFO] ::  >> Yield streaming text: 결제수단을  <<
+2024-08-21 15:44:05,517 [__main__] [INFO] ::  >> Yield streaming text: 말씀해주세요! 
+ <<
+2024-08-21 15:44:13,319 [__main__] [ERROR] :: Error in literal_eval: unmatched '}' (<unknown>, line 1)
+2024-08-21 15:45:25,383 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '베이컨 치즈 버거 세트 4개 중에 반은 레귤러 치킨 콜라 나머지는 라지랑 사이다 콘 샐러드'}}
+2024-08-21 15:45:34,502 [__main__] [INFO] :: *** Yield Time taken: 8.939703702926636s ***
+2024-08-21 15:45:34,504 [__main__] [INFO] ::  >> Yield streaming text: 주문  <<
+2024-08-21 15:45:34,734 [__main__] [INFO] ::  >> Yield streaming text: 접수되었습니다!  <<
+2024-08-21 15:45:34,849 [__main__] [INFO] ::  >> Yield streaming text: 매장에서  <<
+2024-08-21 15:45:34,964 [__main__] [INFO] ::  >> Yield streaming text: 드시고  <<
+2024-08-21 15:45:35,079 [__main__] [INFO] ::  >> Yield streaming text: 가실지  <<
+2024-08-21 15:45:35,271 [__main__] [INFO] ::  >> Yield streaming text: 테이크아웃으로  <<
+2024-08-21 15:45:35,387 [__main__] [INFO] ::  >> Yield streaming text: 포장해  <<
+2024-08-21 15:45:35,540 [__main__] [INFO] ::  >> Yield streaming text: 가실지와  <<
+2024-08-21 15:45:35,618 [__main__] [INFO] ::  >> Yield streaming text: 결제  <<
+2024-08-21 15:45:35,734 [__main__] [INFO] ::  >> Yield streaming text: 수단을  <<
+2024-08-21 15:45:35,889 [__main__] [INFO] ::  >> Yield streaming text: 말씀해주세요! 
+ <<
+2024-08-21 15:45:42,726 [__main__] [ERROR] :: Error in literal_eval: unterminated string literal (detected at line 1) (<unknown>, line 1)
+2024-08-21 15:47:48,269 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '넌 누구야'}}
+2024-08-21 15:47:51,171 [__main__] [INFO] :: *** Yield Time taken: 2.6714537143707275s ***
+2024-08-21 15:47:51,173 [__main__] [INFO] ::  >> Yield streaming text: 안녕하세요!  <<
+2024-08-21 15:47:51,206 [__main__] [INFO] ::  >> Yield streaming text: 전  <<
+2024-08-21 15:47:51,341 [__main__] [INFO] ::  >> Yield streaming text: 프랭크  <<
+2024-08-21 15:47:51,408 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:47:51,509 [__main__] [INFO] ::  >> Yield streaming text: 매장의  <<
+2024-08-21 15:47:51,610 [__main__] [INFO] ::  >> Yield streaming text: 인공지능  <<
+2024-08-21 15:47:51,746 [__main__] [INFO] ::  >> Yield streaming text: 챗봇  <<
+2024-08-21 15:47:51,780 [__main__] [INFO] ::  >> Yield streaming text: 입니다.
+ <<
+2024-08-21 15:48:03,548 [__main__] [INFO] :: 
+
+ >> Response: 안녕하세요! 전 프랭크 버거 매장의 인공지능 챗봇 입니다.
+
+
+  >>> Slot: {'orderList': [], 'delivmthdCd': None, 'paymntmnCd': None, 'easypaymnttypeCd': 'Null', 'orderCheck': 'False'}
+
+2024-08-21 15:48:25,590 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '새우 버거 다섯 개 라지로'}}
+2024-08-21 15:48:30,143 [__main__] [INFO] :: *** Yield Time taken: 4.353275775909424s ***
+2024-08-21 15:48:30,144 [__main__] [INFO] ::  >> Yield streaming text: 주문  <<
+2024-08-21 15:48:30,361 [__main__] [INFO] ::  >> Yield streaming text: 접수되었습니다!  <<
+2024-08-21 15:48:30,433 [__main__] [INFO] ::  >> Yield streaming text: 추가로  <<
+2024-08-21 15:48:30,614 [__main__] [INFO] ::  >> Yield streaming text: 주문하시겠습니까?
+ <<
+2024-08-21 15:48:42,340 [__main__] [ERROR] :: Error in literal_eval: unmatched ']' (<unknown>, line 1)
+2024-08-21 15:48:52,199 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '새우 버거 다섯 개 라지로'}}
+2024-08-21 15:48:56,784 [__main__] [INFO] :: *** Yield Time taken: 4.3571624755859375s ***
+2024-08-21 15:48:56,785 [__main__] [INFO] ::  >> Yield streaming text: 주문  <<
+2024-08-21 15:48:57,002 [__main__] [INFO] ::  >> Yield streaming text: 접수되었습니다!  <<
+2024-08-21 15:48:57,075 [__main__] [INFO] ::  >> Yield streaming text: 추가로  <<
+2024-08-21 15:48:57,256 [__main__] [INFO] ::  >> Yield streaming text: 주문하시겠습니까?
+ <<
+2024-08-21 15:49:08,821 [__main__] [ERROR] :: Error in literal_eval: unmatched ']' (<unknown>, line 1)
+2024-08-21 15:49:16,694 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '새우버거 라지로'}}
+2024-08-21 15:49:19,858 [__main__] [INFO] :: *** Yield Time taken: 2.938495635986328s ***
+2024-08-21 15:49:19,858 [__main__] [INFO] ::  >> Yield streaming text: 죄송합니다  <<
+2024-08-21 15:49:19,963 [__main__] [INFO] ::  >> Yield streaming text: 고객님,  <<
+2024-08-21 15:49:20,067 [__main__] [INFO] ::  >> Yield streaming text: 판매중이  <<
+2024-08-21 15:49:20,103 [__main__] [INFO] ::  >> Yield streaming text: 아닌  <<
+2024-08-21 15:49:20,208 [__main__] [INFO] ::  >> Yield streaming text: 메뉴를  <<
+2024-08-21 15:49:20,383 [__main__] [INFO] ::  >> Yield streaming text: 선택하셨습니다.  <<
+2024-08-21 15:49:20,522 [__main__] [INFO] ::  >> Yield streaming text: 비슷한  <<
+2024-08-21 15:49:20,627 [__main__] [INFO] ::  >> Yield streaming text: 메뉴를  <<
+2024-08-21 15:49:20,838 [__main__] [INFO] ::  >> Yield streaming text: 고르시겠습니까?
+ <<
+2024-08-21 15:49:32,662 [__main__] [INFO] ::   >>>> 주문하신 내역은 포장으로 
+2024-08-21 15:49:32,664 [__main__] [INFO] :: 
+
+ >> Response: 죄송합니다 고객님, 판매중이 아닌 메뉴를 선택하셨습니다. 비슷한 메뉴를 고르시겠습니까?
+
+
+  >>> Slot: {'orderList': [], 'delivmthdCd': None, 'paymntmnCd': None, 'easypaymnttypeCd': 'Null', 'orderCheck': 'True'}
+
+2024-08-21 15:49:32,830 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '응'}}
+2024-08-21 15:49:35,771 [__main__] [INFO] :: *** Yield Time taken: 2.8330743312835693s ***
+2024-08-21 15:49:35,772 [__main__] [INFO] ::  >> Yield streaming text: 응
+ <<
+2024-08-21 15:49:35,879 [__main__] [INFO] ::  >> Yield streaming text: 현재  <<
+2024-08-21 15:49:35,952 [__main__] [INFO] ::  >> Yield streaming text: 매장  <<
+2024-08-21 15:49:36,060 [__main__] [INFO] ::  >> Yield streaming text: 전화번호:  <<
+2024-08-21 15:49:36,309 [__main__] [INFO] ::  >> Yield streaming text: 02-566-1029
+ <<
+2024-08-21 15:50:25,820 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '버거 주문할게'}}
+2024-08-21 15:50:29,471 [__main__] [INFO] :: *** Yield Time taken: 3.418515205383301s ***
+2024-08-21 15:50:29,472 [__main__] [INFO] ::  >> Yield streaming text: 햄버거를  <<
+2024-08-21 15:50:29,586 [__main__] [INFO] ::  >> Yield streaming text: 주문하려고  <<
+2024-08-21 15:50:29,699 [__main__] [INFO] ::  >> Yield streaming text: 하시는군요  <<
+2024-08-21 15:50:29,814 [__main__] [INFO] ::  >> Yield streaming text: 고객님!  <<
+2024-08-21 15:50:29,927 [__main__] [INFO] ::  >> Yield streaming text: 버거는  <<
+2024-08-21 15:50:30,120 [__main__] [INFO] ::  >> Yield streaming text: 세트메뉴와  <<
+2024-08-21 15:50:30,308 [__main__] [INFO] ::  >> Yield streaming text: 단품메뉴가  <<
+2024-08-21 15:50:30,345 [__main__] [INFO] ::  >> Yield streaming text: 있는데  <<
+2024-08-21 15:50:30,420 [__main__] [INFO] ::  >> Yield streaming text: 어떤걸  <<
+2024-08-21 15:50:30,532 [__main__] [INFO] ::  >> Yield streaming text: 원하시나요?
+ <<
+2024-08-21 15:50:43,059 [__main__] [INFO] :: 
+
+ >> Response: 햄버거를 주문하려고 하시는군요 고객님! 버거는 세트메뉴와 단품메뉴가 있는데 어떤걸 원하시나요?
+
+
+  >>> Slot: {'orderList': [], 'delivmthdCd': None, 'paymntmnCd': None, 'easypaymnttypeCd': 'Null', 'orderCheck': 'False'}
+
+2024-08-21 15:50:44,598 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '햄버거 주문할게'}}
+2024-08-21 15:50:48,074 [__main__] [INFO] :: *** Yield Time taken: 3.3083393573760986s ***
+2024-08-21 15:50:48,075 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:50:48,186 [__main__] [INFO] ::  >> Yield streaming text: 단품과  <<
+2024-08-21 15:50:48,297 [__main__] [INFO] ::  >> Yield streaming text: 세트중  <<
+2024-08-21 15:50:48,334 [__main__] [INFO] ::  >> Yield streaming text: 어떤  <<
+2024-08-21 15:50:48,445 [__main__] [INFO] ::  >> Yield streaming text: 메뉴를  <<
+2024-08-21 15:50:48,594 [__main__] [INFO] ::  >> Yield streaming text: 알려드릴까요?
+ <<
+2024-08-21 15:51:01,755 [__main__] [INFO] :: 
+
+ >> Response: 버거 단품과 세트중 어떤 메뉴를 알려드릴까요?
+
+
+  >>> Slot: {'orderList': [], 'delivmthdCd': None, 'paymntmnCd': None, 'easypaymnttypeCd': 'Null', 'orderCheck': 'False'}
+
+2024-08-21 15:51:01,906 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '세트'}}
+2024-08-21 15:51:05,645 [__main__] [INFO] :: *** Yield Time taken: 3.6340112686157227s ***
+2024-08-21 15:51:05,646 [__main__] [INFO] ::  >> Yield streaming text: 세트  <<
+2024-08-21 15:51:05,761 [__main__] [INFO] ::  >> Yield streaming text: 메뉴는  <<
+2024-08-21 15:51:05,837 [__main__] [INFO] ::  >> Yield streaming text: JG  <<
+2024-08-21 15:51:05,914 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:51:06,029 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:51:06,068 [__main__] [INFO] ::  >> Yield streaming text: SG  <<
+2024-08-21 15:51:06,183 [__main__] [INFO] ::  >> Yield streaming text: 불고기  <<
+2024-08-21 15:51:06,260 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:51:06,375 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:51:06,414 [__main__] [INFO] ::  >> Yield streaming text: SG  <<
+2024-08-21 15:51:06,490 [__main__] [INFO] ::  >> Yield streaming text: 크림  <<
+2024-08-21 15:51:06,567 [__main__] [INFO] ::  >> Yield streaming text: 치즈  <<
+2024-08-21 15:51:06,645 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:51:06,760 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:51:06,838 [__main__] [INFO] ::  >> Yield streaming text: 더블  <<
+2024-08-21 15:51:06,915 [__main__] [INFO] ::  >> Yield streaming text: 치즈  <<
+2024-08-21 15:51:06,992 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:51:07,108 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:51:07,223 [__main__] [INFO] ::  >> Yield streaming text: 머쉬룸  <<
+2024-08-21 15:51:07,301 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:51:07,417 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:51:07,532 [__main__] [INFO] ::  >> Yield streaming text: 베이컨  <<
+2024-08-21 15:51:07,610 [__main__] [INFO] ::  >> Yield streaming text: 치즈  <<
+2024-08-21 15:51:07,687 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:51:07,803 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:51:07,919 [__main__] [INFO] ::  >> Yield streaming text: 쉬림프  <<
+2024-08-21 15:51:07,997 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:51:08,116 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:51:08,193 [__main__] [INFO] ::  >> Yield streaming text: 치즈  <<
+2024-08-21 15:51:08,271 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:51:08,387 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:51:08,542 [__main__] [INFO] ::  >> Yield streaming text: 프랭크  <<
+2024-08-21 15:51:08,620 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:51:08,736 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:51:08,891 [__main__] [INFO] ::  >> Yield streaming text: 오딘에  <<
+2024-08-21 15:51:09,008 [__main__] [INFO] ::  >> Yield streaming text: 반할라  <<
+2024-08-21 15:51:09,086 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:51:09,205 [__main__] [INFO] ::  >> Yield streaming text: 세트가  <<
+2024-08-21 15:51:09,283 [__main__] [INFO] ::  >> Yield streaming text: 준비되어  <<
+2024-08-21 15:51:09,361 [__main__] [INFO] ::  >> Yield streaming text: 있습니다.  <<
+2024-08-21 15:51:09,400 [__main__] [INFO] ::  >> Yield streaming text: 어떤  <<
+2024-08-21 15:51:09,517 [__main__] [INFO] ::  >> Yield streaming text: 세트로  <<
+2024-08-21 15:51:09,634 [__main__] [INFO] ::  >> Yield streaming text: 드릴까요?
+
+ <<
+2024-08-21 15:51:19,697 [__main__] [INFO] :: 
+
+ >> Response: 세트 메뉴는 JG 버거 세트, SG 불고기 버거 세트, SG 크림 치즈 버거 세트, 더블 치즈 버거 세트, 머쉬룸 버거 세트, 베이컨 치즈 버거 세트, 쉬림프 버거 세트, 치즈 버거 세트, 프랭크 버거 세트, 오딘에 반할라 버거 세트가 준비되어 있습니다. 어떤 세트로 드릴까요?
+
+
+
+  >>> Slot: {'orderList': [], 'delivmthdCd': None, 'paymntmnCd': None, 'easypaymnttypeCd': 'Null', 'orderCheck': 'False'}
+
+2024-08-21 15:51:27,916 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '머쉬룸 버거 세트 다섯개'}}
+2024-08-21 15:51:33,699 [__main__] [INFO] :: *** Yield Time taken: 5.5567638874053955s ***
+2024-08-21 15:51:33,701 [__main__] [INFO] ::  >> Yield streaming text: 각  <<
+2024-08-21 15:51:33,813 [__main__] [INFO] ::  >> Yield streaming text: 세트의  <<
+2024-08-21 15:51:33,926 [__main__] [INFO] ::  >> Yield streaming text: 사이즈,  <<
+2024-08-21 15:51:34,039 [__main__] [INFO] ::  >> Yield streaming text: 사이드,  <<
+2024-08-21 15:51:34,114 [__main__] [INFO] ::  >> Yield streaming text: 음료  <<
+2024-08-21 15:51:34,265 [__main__] [INFO] ::  >> Yield streaming text: 옵션을  <<
+2024-08-21 15:51:34,378 [__main__] [INFO] ::  >> Yield streaming text: 선택해주세요.
+ <<
+2024-08-21 15:51:45,122 [__main__] [ERROR] :: Error in literal_eval: unmatched ']' (<unknown>, line 1)
+2024-08-21 15:52:18,231 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '머쉬룸 버거 세트 다섯개'}}
+2024-08-21 15:52:24,002 [__main__] [INFO] :: *** Yield Time taken: 5.54349684715271s ***
+2024-08-21 15:52:24,003 [__main__] [INFO] ::  >> Yield streaming text: 각  <<
+2024-08-21 15:52:24,116 [__main__] [INFO] ::  >> Yield streaming text: 세트의  <<
+2024-08-21 15:52:24,229 [__main__] [INFO] ::  >> Yield streaming text: 사이즈,  <<
+2024-08-21 15:52:24,341 [__main__] [INFO] ::  >> Yield streaming text: 사이드,  <<
+2024-08-21 15:52:24,417 [__main__] [INFO] ::  >> Yield streaming text: 음료  <<
+2024-08-21 15:52:24,567 [__main__] [INFO] ::  >> Yield streaming text: 옵션을  <<
+2024-08-21 15:52:24,680 [__main__] [INFO] ::  >> Yield streaming text: 선택해주세요.
+ <<
+2024-08-21 15:52:35,431 [__main__] [ERROR] :: Error in literal_eval: unmatched ']' (<unknown>, line 1)
+2024-08-21 15:53:04,077 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '매장 정보 알려줘'}}
+2024-08-21 15:53:07,888 [__main__] [INFO] :: *** Yield Time taken: 3.578051805496216s ***
+2024-08-21 15:53:07,889 [__main__] [INFO] ::  >> Yield streaming text: 매장  <<
+2024-08-21 15:53:07,965 [__main__] [INFO] ::  >> Yield streaming text: 정보는  <<
+2024-08-21 15:53:08,080 [__main__] [INFO] ::  >> Yield streaming text: 매장의  <<
+2024-08-21 15:53:08,195 [__main__] [INFO] ::  >> Yield streaming text: 전화번호,  <<
+2024-08-21 15:53:08,310 [__main__] [INFO] ::  >> Yield streaming text: 주소,  <<
+2024-08-21 15:53:08,389 [__main__] [INFO] ::  >> Yield streaming text: 오시는  <<
+2024-08-21 15:53:08,427 [__main__] [INFO] ::  >> Yield streaming text: 길  <<
+2024-08-21 15:53:08,466 [__main__] [INFO] ::  >> Yield streaming text: 이렇게  <<
+2024-08-21 15:53:08,505 [__main__] [INFO] ::  >> Yield streaming text: 있는데  <<
+2024-08-21 15:53:08,543 [__main__] [INFO] ::  >> Yield streaming text: 어떤  <<
+2024-08-21 15:53:08,621 [__main__] [INFO] ::  >> Yield streaming text: 정보를  <<
+2024-08-21 15:53:08,775 [__main__] [INFO] ::  >> Yield streaming text: 원하십니까?
+
+ <<
+2024-08-21 15:53:21,909 [__main__] [INFO] :: 
+
+ >> Response: 매장 정보는 매장의 전화번호, 주소, 오시는 길 이렇게 있는데 어떤 정보를 원하십니까?
+
+
+
+  >>> Slot: {'orderList': [], 'delivmthdCd': None, 'paymntmnCd': None, 'easypaymnttypeCd': 'Null', 'orderCheck': 'False'}
+
+2024-08-21 15:53:26,333 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '전화번호랑 가는 길'}}
+2024-08-21 15:53:29,158 [__main__] [INFO] :: *** Yield Time taken: 2.6571948528289795s ***
+2024-08-21 15:53:29,159 [__main__] [INFO] ::  >> Yield streaming text: 전화번호와  <<
+2024-08-21 15:53:29,226 [__main__] [INFO] ::  >> Yield streaming text: 오시는  <<
+2024-08-21 15:53:29,293 [__main__] [INFO] ::  >> Yield streaming text: 길은  <<
+2024-08-21 15:53:29,361 [__main__] [INFO] ::  >> Yield streaming text: 매장  <<
+2024-08-21 15:53:29,461 [__main__] [INFO] ::  >> Yield streaming text: 직원에게  <<
+2024-08-21 15:53:29,596 [__main__] [INFO] ::  >> Yield streaming text: 문의해주시면  <<
+2024-08-21 15:53:29,731 [__main__] [INFO] ::  >> Yield streaming text: 안내해드리겠습니다.
+
+ <<
+2024-08-21 15:53:41,533 [__main__] [INFO] :: 
+
+ >> Response: 전화번호와 오시는 길은 매장 직원에게 문의해주시면 안내해드리겠습니다.
+
+
+
+  >>> Slot: {'orderList': [], 'delivmthdCd': None, 'paymntmnCd': None, 'easypaymnttypeCd': 'Null', 'orderCheck': 'False'}
+
+2024-08-21 15:53:46,317 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '주소 알려줘'}}
+2024-08-21 15:53:49,590 [__main__] [INFO] :: *** Yield Time taken: 3.1541593074798584s ***
+2024-08-21 15:53:49,592 [__main__] [INFO] ::  >> Yield streaming text: 주소가  <<
+2024-08-21 15:53:49,736 [__main__] [INFO] ::  >> Yield streaming text: 궁금하시군요!  <<
+2024-08-21 15:53:49,772 [__main__] [INFO] ::  >> Yield streaming text: 어느  <<
+2024-08-21 15:53:49,881 [__main__] [INFO] ::  >> Yield streaming text: 매장의  <<
+2024-08-21 15:53:49,953 [__main__] [INFO] ::  >> Yield streaming text: 주소를  <<
+2024-08-21 15:53:50,098 [__main__] [INFO] ::  >> Yield streaming text: 알려드릴까요?
+ <<
+2024-08-21 15:54:02,772 [__main__] [INFO] :: 
+
+ >> Response: 주소가 궁금하시군요! 어느 매장의 주소를 알려드릴까요?
+
+
+  >>> Slot: {'orderList': [], 'delivmthdCd': None, 'paymntmnCd': None, 'easypaymnttypeCd': 'Null', 'orderCheck': 'False'}
+
+2024-08-21 15:54:06,123 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '선릉역점'}}
+2024-08-21 15:54:09,342 [__main__] [INFO] :: *** Yield Time taken: 3.0494508743286133s ***
+2024-08-21 15:54:09,344 [__main__] [INFO] ::  >> Yield streaming text: 선릉역점의  <<
+2024-08-21 15:54:09,448 [__main__] [INFO] ::  >> Yield streaming text: 주소는  <<
+2024-08-21 15:54:09,484 [__main__] [INFO] ::  >> Yield streaming text: 서울  <<
+2024-08-21 15:54:09,554 [__main__] [INFO] ::  >> Yield streaming text: 강남구  <<
+2024-08-21 15:54:09,729 [__main__] [INFO] ::  >> Yield streaming text: 선릉로86길  <<
+2024-08-21 15:54:09,869 [__main__] [INFO] ::  >> Yield streaming text: 15입니다.  <<
+2024-08-21 15:54:09,905 [__main__] [INFO] ::  >> Yield streaming text: 상품  <<
+2024-08-21 15:54:09,940 [__main__] [INFO] ::  >> Yield streaming text: 주문  <<
+2024-08-21 15:54:10,115 [__main__] [INFO] ::  >> Yield streaming text: 도와드릴까요?
+ <<
+2024-08-21 15:54:22,120 [__main__] [INFO] ::   >>>> 주문하신 내역은 포장으로 
+2024-08-21 15:54:22,133 [__main__] [INFO] :: 
+
+ >> Response: 선릉역점의 주소는 서울 강남구 선릉로86길 15입니다. 상품 주문 도와드릴까요?
+
+
+  >>> Slot: {'orderList': [], 'delivmthdCd': None, 'paymntmnCd': None, 'easypaymnttypeCd': 'Null', 'orderCheck': 'True'}
+
+2024-08-21 15:57:04,939 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '버거 세트랑 사이드 알려줘'}}
+2024-08-21 15:57:08,798 [__main__] [INFO] :: *** Yield Time taken: 3.6114206314086914s ***
+2024-08-21 15:57:08,800 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:57:08,917 [__main__] [INFO] ::  >> Yield streaming text: 세트로는  <<
+2024-08-21 15:57:08,995 [__main__] [INFO] ::  >> Yield streaming text: JG  <<
+2024-08-21 15:57:09,073 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:57:09,191 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:57:09,241 [__main__] [INFO] ::  >> Yield streaming text: SG  <<
+2024-08-21 15:57:09,360 [__main__] [INFO] ::  >> Yield streaming text: 불고기  <<
+2024-08-21 15:57:09,440 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:57:09,561 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:57:09,601 [__main__] [INFO] ::  >> Yield streaming text: SG  <<
+2024-08-21 15:57:09,681 [__main__] [INFO] ::  >> Yield streaming text: 크림  <<
+2024-08-21 15:57:09,761 [__main__] [INFO] ::  >> Yield streaming text: 치즈  <<
+2024-08-21 15:57:09,841 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:57:09,961 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:57:10,047 [__main__] [INFO] ::  >> Yield streaming text: 더블  <<
+2024-08-21 15:57:10,127 [__main__] [INFO] ::  >> Yield streaming text: 치즈  <<
+2024-08-21 15:57:10,207 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:57:10,332 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:57:10,451 [__main__] [INFO] ::  >> Yield streaming text: 머쉬룸  <<
+2024-08-21 15:57:10,536 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:57:10,655 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:57:10,780 [__main__] [INFO] ::  >> Yield streaming text: 베이컨  <<
+2024-08-21 15:57:10,861 [__main__] [INFO] ::  >> Yield streaming text: 치즈  <<
+2024-08-21 15:57:10,943 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:57:11,061 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:57:11,178 [__main__] [INFO] ::  >> Yield streaming text: 쉬림프  <<
+2024-08-21 15:57:11,256 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:57:11,373 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:57:11,452 [__main__] [INFO] ::  >> Yield streaming text: 치즈  <<
+2024-08-21 15:57:11,539 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:57:11,659 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:57:11,820 [__main__] [INFO] ::  >> Yield streaming text: 프랭크  <<
+2024-08-21 15:57:11,900 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:57:12,021 [__main__] [INFO] ::  >> Yield streaming text: 세트,  <<
+2024-08-21 15:57:12,183 [__main__] [INFO] ::  >> Yield streaming text: 오딘에  <<
+2024-08-21 15:57:12,304 [__main__] [INFO] ::  >> Yield streaming text: 반할라  <<
+2024-08-21 15:57:12,387 [__main__] [INFO] ::  >> Yield streaming text: 버거  <<
+2024-08-21 15:57:12,508 [__main__] [INFO] ::  >> Yield streaming text: 세트가  <<
+2024-08-21 15:57:12,587 [__main__] [INFO] ::  >> Yield streaming text: 있습니다.  <<
+2024-08-21 15:57:12,706 [__main__] [INFO] ::  >> Yield streaming text: 사이드로는  <<
+2024-08-21 15:57:12,785 [__main__] [INFO] ::  >> Yield streaming text: JG  <<
+2024-08-21 15:57:12,865 [__main__] [INFO] ::  >> Yield streaming text: 치즈  <<
+2024-08-21 15:57:13,066 [__main__] [INFO] ::  >> Yield streaming text: 스틱,  <<
+2024-08-21 15:57:13,185 [__main__] [INFO] ::  >> Yield streaming text: 후라이드  <<
+2024-08-21 15:57:13,346 [__main__] [INFO] ::  >> Yield streaming text: 아이스볼,  <<
+2024-08-21 15:57:13,466 [__main__] [INFO] ::  >> Yield streaming text: 프랜치  <<
+2024-08-21 15:57:13,585 [__main__] [INFO] ::  >> Yield streaming text: 프라이,  <<
+2024-08-21 15:57:13,664 [__main__] [INFO] ::  >> Yield streaming text: 치즈  <<
+2024-08-21 15:57:13,783 [__main__] [INFO] ::  >> Yield streaming text: 프랜치  <<
+2024-08-21 15:57:13,902 [__main__] [INFO] ::  >> Yield streaming text: 프라이,  <<
+2024-08-21 15:57:14,060 [__main__] [INFO] ::  >> Yield streaming text: 코울슬로  <<
+2024-08-21 15:57:14,258 [__main__] [INFO] ::  >> Yield streaming text: 샐러드,  <<
+2024-08-21 15:57:14,298 [__main__] [INFO] ::  >> Yield streaming text: 콘  <<
+2024-08-21 15:57:14,496 [__main__] [INFO] ::  >> Yield streaming text: 샐러드,  <<
+2024-08-21 15:57:14,616 [__main__] [INFO] ::  >> Yield streaming text: 피넛  <<
+2024-08-21 15:57:14,776 [__main__] [INFO] ::  >> Yield streaming text: 슈가볼,  <<
+2024-08-21 15:57:14,895 [__main__] [INFO] ::  >> Yield streaming text: 치킨,  <<
+2024-08-21 15:57:15,134 [__main__] [INFO] ::  >> Yield streaming text: 스파이시  <<
+2024-08-21 15:57:15,292 [__main__] [INFO] ::  >> Yield streaming text: 텐더,  <<
+2024-08-21 15:57:15,491 [__main__] [INFO] ::  >> Yield streaming text: 더치즈볼,  <<
+2024-08-21 15:57:15,611 [__main__] [INFO] ::  >> Yield streaming text: 통가슴  <<
+2024-08-21 15:57:15,769 [__main__] [INFO] ::  >> Yield streaming text: 후라이드,  <<
+2024-08-21 15:57:15,929 [__main__] [INFO] ::  >> Yield streaming text: 자이언트  <<
+2024-08-21 15:57:16,169 [__main__] [INFO] ::  >> Yield streaming text: 통닭다리,  <<
+2024-08-21 15:57:16,210 [__main__] [INFO] ::  >> Yield streaming text: 콘  <<
+2024-08-21 15:57:16,370 [__main__] [INFO] ::  >> Yield streaming text: 치즈볼,  <<
+2024-08-21 15:57:16,530 [__main__] [INFO] ::  >> Yield streaming text: 게다리살  <<
+2024-08-21 15:57:16,690 [__main__] [INFO] ::  >> Yield streaming text: 튀김,  <<
+2024-08-21 15:57:16,850 [__main__] [INFO] ::  >> Yield streaming text: 초코칩  <<
+2024-08-21 15:57:17,050 [__main__] [INFO] ::  >> Yield streaming text: 쿠키,  <<
+2024-08-21 15:57:17,130 [__main__] [INFO] ::  >> Yield streaming text: 치즈  <<
+2024-08-21 15:57:17,331 [__main__] [INFO] ::  >> Yield streaming text: 쿠키가  <<
+2024-08-21 15:57:17,411 [__main__] [INFO] ::  >> Yield streaming text: 있습니다. 
+ <<
+2024-08-21 15:57:41,648 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '치즈 버거 세트 라지로 아홉 개'}}
+2024-08-21 15:57:47,482 [__main__] [INFO] :: *** Yield Time taken: 5.6038501262664795s ***
+2024-08-21 15:57:47,483 [__main__] [INFO] ::  >> Yield streaming text: 주문  <<
+2024-08-21 15:57:47,708 [__main__] [INFO] ::  >> Yield streaming text: 추가해드렸습니다!  <<
+2024-08-21 15:57:47,821 [__main__] [INFO] ::  >> Yield streaming text: 사이즈와  <<
+2024-08-21 15:57:47,934 [__main__] [INFO] ::  >> Yield streaming text: 음료를  <<
+2024-08-21 15:57:48,049 [__main__] [INFO] ::  >> Yield streaming text: 선택해주세요!
+ <<
+2024-08-21 15:57:58,882 [__main__] [ERROR] :: Error in literal_eval: unmatched ']' (<unknown>, line 1)
+2024-08-21 16:01:48,573 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '치즈 버거 세트 라지로 아홉 개'}}
+2024-08-21 16:01:54,380 [__main__] [INFO] :: *** Yield Time taken: 5.577547550201416s ***
+2024-08-21 16:01:54,381 [__main__] [INFO] ::  >> Yield streaming text: 주문  <<
+2024-08-21 16:01:54,606 [__main__] [INFO] ::  >> Yield streaming text: 접수되었습니다!  <<
+2024-08-21 16:01:54,719 [__main__] [INFO] ::  >> Yield streaming text: 사이드와  <<
+2024-08-21 16:01:54,832 [__main__] [INFO] ::  >> Yield streaming text: 음료를  <<
+2024-08-21 16:01:54,945 [__main__] [INFO] ::  >> Yield streaming text: 선택해주세요!
+ <<
+2024-08-21 16:02:05,776 [__main__] [ERROR] :: Error in literal_eval: unmatched ']' (<unknown>, line 1)

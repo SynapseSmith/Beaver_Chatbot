@@ -1,0 +1,6 @@
+﻿2024-08-19 14:07:12,073 [__main__] [INFO] :: *** 14h-07m-12s START ***
+2024-08-19 14:07:12,074 [__main__] [INFO] :: *** PID: 4377 ***
+2024-08-19 14:09:57,808 [__main__] [INFO] ::  ** Initialize history **
+2024-08-19 14:10:01,140 [__main__] [INFO] :: Ready to receive speech input...
+2024-08-19 14:10:01,140 [__main__] [INFO] :: Listening for speech...
+2024-08-19 14:10:06,150 [__main__] [ERROR] :: An error occurred: listening timed out while waiting for phrase to start

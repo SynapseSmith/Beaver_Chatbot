@@ -1,0 +1,13 @@
+﻿2024-08-14 15:52:19,319 [__main__] [INFO] :: *** 15h-52m-19s START ***
+2024-08-14 15:52:19,320 [__main__] [INFO] :: *** PID: 2819515 ***
+2024-08-14 15:52:38,385 [__main__] [INFO] ::  ** Initialize history **
+2024-08-14 15:52:38,561 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '프랭크 버거 열 개 중에 세 개는 라지 나머지는 레귤러로'}}
+2024-08-14 15:52:38,562 [__main__] [INFO] ::  --- Start order ----
+2024-08-14 15:52:42,306 [__main__] [INFO] :: *** Yield Time taken: 2.975780963897705s ***
+2024-08-14 15:52:42,307 [__main__] [INFO] ::  >> Yield streaming text: 주문하시겠어요?<|eot_id|> <<
+2024-08-14 15:52:42,308 [__main__] [INFO] :: 
+
+ >> Response: 주문하시겠어요?
+
+  >>> Slot: {}
+

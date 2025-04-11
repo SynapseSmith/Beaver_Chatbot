@@ -1,0 +1,15 @@
+﻿2024-08-19 12:34:23,796 [__main__] [INFO] :: *** 12h-34m-23s START ***
+2024-08-19 12:34:23,797 [__main__] [INFO] :: *** PID: 247515 ***
+2024-08-19 12:34:35,913 [__main__] [INFO] ::  ** Initialize history **
+2024-08-19 12:34:50,863 [__main__] [INFO] :: audio_file
+2024-08-19 12:34:50,863 [__main__] [INFO] :: audio_data
+2024-08-19 12:34:54,171 [__main__] [INFO] :: Ready to receive speech input...
+2024-08-19 12:34:54,171 [__main__] [INFO] :: Listening for speech...
+2024-08-19 12:34:59,182 [__main__] [ERROR] :: An error occurred: listening timed out while waiting for phrase to start
+2024-08-19 12:34:59,186 [__main__] [INFO] :: message
+2024-08-19 12:35:06,745 [__main__] [INFO] :: audio_file
+2024-08-19 12:35:06,745 [__main__] [INFO] :: audio_data
+2024-08-19 12:35:09,995 [__main__] [INFO] :: Ready to receive speech input...
+2024-08-19 12:35:09,996 [__main__] [INFO] :: Listening for speech...
+2024-08-19 12:35:15,006 [__main__] [ERROR] :: An error occurred: listening timed out while waiting for phrase to start
+2024-08-19 12:35:15,009 [__main__] [INFO] :: message

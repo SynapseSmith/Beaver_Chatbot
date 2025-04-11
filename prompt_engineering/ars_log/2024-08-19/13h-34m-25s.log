@@ -1,0 +1,6 @@
+﻿2024-08-19 13:34:25,380 [__main__] [INFO] :: *** 13h-34m-25s START ***
+2024-08-19 13:34:25,380 [__main__] [INFO] :: *** PID: 256765 ***
+2024-08-19 13:34:37,330 [__main__] [INFO] ::  ** Initialize history **
+2024-08-19 13:34:40,635 [__main__] [INFO] :: Ready to receive speech input...
+2024-08-19 13:34:40,635 [__main__] [INFO] :: Listening for speech...
+2024-08-19 13:34:40,635 [__main__] [INFO] :: Recognized text: 메뉴 알려주세요

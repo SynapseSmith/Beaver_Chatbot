@@ -1,0 +1,17 @@
+﻿2024-08-14 15:50:08,678 [__main__] [INFO] :: *** 15h-50m-08s START ***
+2024-08-14 15:50:08,678 [__main__] [INFO] :: *** PID: 2818440 ***
+2024-08-14 15:50:26,596 [__main__] [INFO] ::  ** Initialize history **
+2024-08-14 15:50:56,781 [__main__] [INFO] :: {'header': {'interfaceID': 'AI-SDC-CAT-001', 'interfaceMsg': '메뉴 주문 추론', 'storeNo': '123456'}, 'body': {'text': '메뉴 추천해줘'}}
+2024-08-14 15:50:56,782 [__main__] [INFO] ::  --- Start order ----
+2024-08-14 15:51:00,680 [__main__] [INFO] :: *** Yield Time taken: 3.1732354164123535s ***
+2024-08-14 15:51:00,681 [__main__] [INFO] ::  >> Yield streaming text: 새콤달콤하고  <<
+2024-08-14 15:51:00,820 [__main__] [INFO] ::  >> Yield streaming text: 상큼한  <<
+2024-08-14 15:51:00,958 [__main__] [INFO] ::  >> Yield streaming text: 오렌지  <<
+2024-08-14 15:51:01,053 [__main__] [INFO] ::  >> Yield streaming text: 주스로  <<
+2024-08-14 15:51:01,365 [__main__] [INFO] ::  >> Yield streaming text: 주문해드릴까요?<|eot_id|> <<
+2024-08-14 15:51:01,365 [__main__] [INFO] :: 
+
+ >> Response: 새콤달콤하고 상큼한 오렌지 주스로 주문해드릴까요?
+
+  >>> Slot: {}
+

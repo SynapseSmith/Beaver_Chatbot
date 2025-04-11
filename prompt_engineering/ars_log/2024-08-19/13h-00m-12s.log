@@ -1,0 +1,10 @@
+﻿2024-08-19 13:00:12,381 [__main__] [INFO] :: *** 13h-00m-12s START ***
+2024-08-19 13:00:12,381 [__main__] [INFO] :: *** PID: 249916 ***
+2024-08-19 13:00:25,657 [__main__] [INFO] ::  ** Initialize history **
+2024-08-19 13:00:28,954 [__main__] [INFO] :: Ready to receive speech input...
+2024-08-19 13:00:28,954 [__main__] [INFO] :: Listening for speech...
+2024-08-19 13:00:33,964 [__main__] [ERROR] :: An error occurred: listening timed out while waiting for phrase to start
+2024-08-19 13:03:48,108 [__main__] [ERROR] :: 
+
+ !!!!! Error raised >>> 
+name 'recognized_text' is not defined
